@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3771" started-at="2023-02-26T23:23:19 EST" finished-at="2023-02-26T23:23:23 EST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runTest@1165b38]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="3771" started-at="2023-02-26T23:23:19 EST" finished-at="2023-02-26T23:23:23 EST">
+      <class name="Runner.runTest">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.runTest@1165b38]" name="setUpClass" is-config="true" duration-ms="653" started-at="2023-02-26T23:23:19 EST" finished-at="2023-02-26T23:23:20 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@543d5863]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="SKIP" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.runTest@1165b38]" name="runScenario" duration-ms="180" started-at="2023-02-26T23:23:20 EST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-26T23:23:20 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["SignUp for facebook"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sign up Feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skiping the test case]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skiping the test case
+at StepDefination.signUp.user_need_to_enter_new_password(signUp.java:38)
+at ✽.User need to enter new password(file:///C:/2023PracticeAutmation/AutomationPractProj2023/src/test/resources/FeatureFile/SignupFB.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runner.runTest@1165b38]" name="tearDownClass" is-config="true" duration-ms="2901" started-at="2023-02-26T23:23:20 EST" finished-at="2023-02-26T23:23:23 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.runTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
